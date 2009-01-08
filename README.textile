@@ -1,0 +1,3 @@
+h1. Tarot
+
+This is an attempt to write a tarot deck simulator with Major and Minor Arcana and different kind of draws.
