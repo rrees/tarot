@@ -18,4 +18,8 @@ describe Card do
 		a_card.invert.inverted.should == true
 	end
 	it "should have an inverted meaning"
+	
+	it "should have a meaning" do
+		@card.meaning.should == "Change"
+	end
 end

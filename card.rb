@@ -1,7 +1,7 @@
 
 class Card
 	
-	attr_reader :name, :inverted
+	attr_reader :name, :inverted, :meaning
 	
 	def invert
 		@inverted = true
@@ -11,6 +11,7 @@ class Card
 	def initialize(name, meaning, reversed_meaning)
 		@name = name
 		@inverted = false
+		@meaning = meaning
 	end
 	
 	def to_s
