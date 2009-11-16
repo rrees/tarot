@@ -1,2 +1,0 @@
-require 'teller'
-require 'card'

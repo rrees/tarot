@@ -1,4 +1,5 @@
 require 'deck'
+
 class Teller
 	
 	@@default_draw = 3
